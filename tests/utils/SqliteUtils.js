@@ -14,14 +14,13 @@ require('dotenv').config();
 // });
 
 const getDbPath = () => {
-    // let dbPath = process.env.SQLITE;
-    // if (!dbPath) {
-    //     throw new Error('SQLITE environment variable not set');
-    // }
-
     // Remove jdbc: prefix if present and trim whitespace
     let dbPath = process.env.SQLITE;
     console.log(`Raw SQLITE path: ${dbPath}`); // Debug output
+
+    if (!dbPath) {
+        throw new Error('SQLITE environment variable not set');
+    }
 
     // Handle relative paths by resolving from project root
     if (!path.isAbsolute(dbPath)) {
