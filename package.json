@@ -15,7 +15,7 @@
   "dependencies": {
     "dotenv": "^16.6.1",
     "mysql2": "^3.14.1",
-    "playwright": "^1.58.2",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^6.0.1",
+    "playwright": "^1.58.2"
   }
 }
