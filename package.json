@@ -8,14 +8,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.51.1",
+    "@playwright/test": "^1.58.2",
     "@types/node": "^22.14.0",
     "mongodb": "^6.16.0"
   },
   "dependencies": {
     "dotenv": "^16.6.1",
     "mysql2": "^3.14.1",
-    "playwright": "^1.54.0",
+    "playwright": "^1.58.2",
     "sqlite3": "^5.1.7"
   }
 }
